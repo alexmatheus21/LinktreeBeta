@@ -67,6 +67,9 @@ footer {
     text-align: center;
     font-size: 0.7em;
 }
+footer a{
+    color: white;
+}
 footer a:hover{
     text-decoration: underline;
 }

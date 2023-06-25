@@ -43,7 +43,7 @@ span {
     font-size: 1em;
     font-weight: 300;
 }
-a {
+main a {
     background-color: var(--cor2);
     color: white;
     width: 100%;
@@ -53,7 +53,7 @@ a {
     font-weight: 300;
     transition: all 0.5s linear;
 }
-a:hover {
+main a:hover {
     background-color: var(--cor1);
     font-weight: 500;
 }
@@ -61,4 +61,12 @@ a:hover {
     main {
         width: 40vw;
     }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+}
+footer a:hover{
+    text-decoration: underline;
 }
